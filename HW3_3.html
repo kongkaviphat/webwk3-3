@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th, td {
+          border-style: groove;
+        }
+    </style>
+</head>
+<body>
+    <h1>เข้าสู่ระบบ</h1>
+    <form action="login.html">
+    <table>
+        <tr>
+        <th><label for="username">username:</label></th>
+        <th><input type="text" id="username" autofocus required></th>
+    </tr>
+    <tr>
+        <br>
+        <th><label for="Password" required>Password:</label></th>
+        <th><input type="password" id="password" ></th>
+        <br>
+    </tr>
+    <tr>
+    <td colspan="2">
+        <label for="check_robot">กรุณาพิมพ์ตามตัวเลขที่ปรากฎ: <br>1559</label><br>
+        <input type="text" id="check_robot" pattern="^1559" required>
+    </td>
+    </tr>
+    </table>
+    <input type="image" src="https://www.nicepng.com/png/detail/61-615043_click-here-to-learn-more-button-png-click.png" width="5%" height="5%">
+    </form>
+</body>
+</html>
